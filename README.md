@@ -1,1 +1,1 @@
-Here lies some half-done things I've been playing with. Far more 10% finished things I poked around that aren't here, but these are the sort-of-functional-but-still-useless remnants of meddling.
+Here lies some half-done things I've been playing with. Far more 10% finished things I poked around that aren't here, but these are the sort-of-functional-but-still-useless remnants of meddling. Mostly with Haskell.
