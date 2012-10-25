@@ -1,0 +1,22 @@
+name: CollisionDetector
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+description:
+data-dir: ""
+
+executable CollisionDetector
+    build-depends: QuickCheck -any, base -any, blaze-builder -any, http-types -any, warp -any, wai -any, utf8-string -any, text -any, attoparsec -any, resourcet -any
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: .
+
+test-suite test-CollisionDetector
+    build-depends: QuickCheck -any, base -any
+    type: exitcode-stdio-1.0
+    main-is: Main.hs
+    buildable: True
+    cpp-options: -DMAIN_FUNCTION=testMain
+    hs-source-dirs: .
